@@ -1,0 +1,20 @@
+/*--HARSHDEEP--*/
+    body > header {
+        position: fixed;
+        top: 0;
+      }
+      body > footer {
+        position: fixed;
+        bottom: 0;
+      }
+.division{
+    padding-left: 50PX;
+}
+.division li{
+    list-style-type: circle;
+    height: auto;
+    font : rgb(45, 45, 209);
+}
+.social h2{
+    color: blue;
+}
