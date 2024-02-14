@@ -1,0 +1,74 @@
+/*--HARSHDEEP--*/
+    body > header {
+        position: fixed;
+        top: 0;
+      }
+      body > footer {
+        position: fixed;
+        bottom: 0;
+      }
+.division{
+    padding-left: 50PX;
+    padding-bottom:50px;
+}
+.division li{
+    list-style-type: circle;
+    height: auto;
+    font : rgb(245, 245, 248);
+    
+}
+.social h2{
+    color: rgb(14, 238, 44);
+}
+.structural {
+    display: block;
+    border: none;
+   
+}
+main {
+    float: left;
+    width: 100%; 
+}
+aside {
+    float: right;
+    width: 100%; 
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#para1 {
+    color: rgb(241, 237, 237); 
+}
+#para2 {
+    color: rgb(21, 22, 21); 
+}
+#para3 {
+    color: rgb(45, 45, 209); 
+}
+
+header.structural {
+    background-color: hsl(0, 100%, 50%); 
+}
+main.structural {
+    float: left;
+    width: 100%; 
+    background-color: hsl(120, 100%, 50%); 
+}
+aside.structural {
+    float: right;
+    width: 100%; 
+    background-color: hsl(240, 6%, 49%); 
+}
+footer.structural {
+    background-color: hsl(60, 100%, 50%); 
+}
+
+a:hover {
+    color: #f00; 
+}
+footer p {
+    font-size: 0.8em; 
+}
